@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+# The CIA's daily presidential briefings, 1961-1977
+
+The Central Intelligence Agency has released a fascinating historical record by declassifying (most of) [the daily presidential briefings](https://www.cia.gov/library/readingroom/presidents-daily-brief) that it delivered during the Kennedy, Johnson, Nixon, and Ford administrations.
+
+The CIA has published these briefings as a collection of several thousand individual PDF files. This repo provides code for downloading these files in bulk and collating them into easier-to-handle monthly collections.
+
+## Process
+1. Requirements
+    - Python 2.7 or Python 3.x
+    - [TQDM](https://pypi.python.org/pypi/tqdm) for friendly progress bars:
+        ```
+        pip install tqdm
+        ```
+2. The scripts anticipate that they'll be run in a directory with subdirectories called `documents` and `documents/originals`. If you clone this repo, they should be there, but if not you'll need to create them.
+
+3. Run `./scrape_documents.py` to download all individual PDFs to `documents/originals`. On a reasonably fast Internet connection this will take 10-20 minutes.
+
+4. Run `./merge_documents.py` to merge the original PDFs into monthly collections in the `documents` directory.
+
+5. If you want to zip the collated documents into annual tarballs, run `./zip_briefings.sh`.
+=======
+# cia-briefings
+Compiled PDFs of the CIA's daily presidential briefings from 1961 to 1977, along with Python tools for scraping and merging them
+>>>>>>> 049f4611584610dd08b804ad2706ebe0ed81dccc
