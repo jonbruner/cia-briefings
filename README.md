@@ -18,6 +18,3 @@ The CIA has published these briefings as a collection of several thousand indivi
 4. Run `./merge_documents.py` to merge the original PDFs into monthly collections in the `documents` directory.
 
 5. If you want to zip the collated documents into annual tarballs, run `./zip_briefings.sh`.
-=======
-# cia-briefings
-Compiled PDFs of the CIA's daily presidential briefings from 1961 to 1977, along with Python tools for scraping and merging them
