@@ -2,7 +2,10 @@ The Central Intelligence Agency has released a fascinating historical record by 
 
 The CIA has published these briefings as a collection of several thousand individual PDF files. This repo provides code for downloading these files in bulk and collating them into easier-to-handle monthly collections.
 
-## Process
+## [Download the documents from GitHub](https://github.com/jonbruner/cia-briefings/tree/master/docs/pdfs)
+View and download [monthly collated PDFs right here on GitHub](https://github.com/jonbruner/cia-briefings/tree/master/docs/pdfs), or just [download the zipfile](https://github.com/jonbruner/cia-briefings/archive/master.zip) of the entire repo. You'll find the PDFs in `docs/pdfs`.
+
+## Scrape and collate them yourself
 1. Requirements
     - Python 2.7 or Python 3.x
     - [TQDM](https://pypi.python.org/pypi/tqdm) for friendly progress bars:
