@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # The CIA's daily presidential briefings, 1961-1977
 
 The Central Intelligence Agency has released a fascinating historical record by declassifying (most of) [the daily presidential briefings](https://www.cia.gov/library/readingroom/presidents-daily-brief) that it delivered during the Kennedy, Johnson, Nixon, and Ford administrations.
@@ -22,4 +21,3 @@ The CIA has published these briefings as a collection of several thousand indivi
 =======
 # cia-briefings
 Compiled PDFs of the CIA's daily presidential briefings from 1961 to 1977, along with Python tools for scraping and merging them
->>>>>>> 049f4611584610dd08b804ad2706ebe0ed81dccc
